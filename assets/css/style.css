@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #000000, #4b0082);
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.containerToDoList {
+    max-width: 750px;
+    min-width: 425px;
+    min-height: 400px;
+    border-radius: 8px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color:whitesmoke;
+}
+
+
+input {
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.containerToDoList__Input button {
+    width: 16%;
+    height: 30px;
+    color: white;
+    background-color: green;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.containerToDoList__Input button:hover {
+    background-color: #38b000;
+}
+
+.added-tasks {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.fa-solid {
+    color: red;
+}
+
+.delete-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.fa-solid:hover {
+    color: brown;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}

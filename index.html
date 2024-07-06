@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script src="https://kit.fontawesome.com/6b04acfae5.js" crossorigin="anonymous"></script>
+        <title>Desafio 05 To do List</title>
+    </head>
+
+    <body>
+        <div class="containerToDoList">
+            <h1 class="title">To do List</h1>
+            <hr>
+            <div class="containerToDoList__Input">
+                <p>Nueva tarea</p>
+                <input
+                    id="new-task"
+                    name="new-task"
+                    type="text"
+                    required
+                    placeholder="Ingresa una nueva tarea">
+                <button>Agregar</button>
+            </div>
+            <div class="added-tasks">
+                <div class="completed-tasks">
+                    <p id="total-tasks">Total de tareas: <strong>0</strong></p>
+                    <p id="comple-tasks">Tareas realizadas <strong>0</strong></p>
+                </div>
+                <div id="tasks-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><strong>ID</strong></th>
+                                <th><strong>Tarea</strong></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+
+</html>
